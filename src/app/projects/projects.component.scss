@@ -1,13 +1,74 @@
-.head{
+.heads {
     text-align: center;
+    font-size: 27px;
+    color: white;
+}
+.bodys {
+    text-align: center;
+    color: white;
+}
+.main {
+    height:300px;
+    background-color: #7510f7;
+
+}
+.container {
+    padding: 50px;
+}
+.projects {
+    padding-left: 60px;
+    padding-right: 60px;
+
+}
+.mains {
+    margin-top: -60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: black;
+}
+.figure img {
+    width: 180px;
+    height: 180px;
+}
+.figure{
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #E6ECF8;
+    padding-bottom: 25px;
+}
+.check{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 13px;
+    text-align: center;
+}
+.check .head{
+    padding-top: 40px;
     font-size: 27px;
     color: black;
 }
-.body{
-    text-align: center;
+.check .body{
+    padding-top: 10px;
+    font-size: 17px;
     color: black;
 }
-.main{
-    padding: 50px;
-    background-color: #7510F7;
+.check .button{
+    padding-top: 25px;
+    padding-bottom: 50px;
 }
+@media (max-width: 575.98px) {  }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {  }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {  }
