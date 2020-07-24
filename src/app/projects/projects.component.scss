@@ -1,11 +1,14 @@
 .heads {
     text-align: center;
-    font-size: 27px;
     color: white;
+    font-family: 'Rowdies', cursive;
+    font-size: 30px;
 }
 .bodys {
+    font-size: 22px;
     text-align: center;
     color: white;
+    font-family: 'Crimson Text', serif;
 }
 .main {
     height: 300px;
@@ -27,6 +30,14 @@
 .figure img {
     width: 180px;
     height: 180px;
+}
+.figure p{
+    font-family: 'Crimson Text', serif;
+    font-size: 25px;
+}
+.figure span{
+    font-family: 'Crimson Text', serif;
+    font-size: 18px;
 }
 .figure {
     padding-left: 5px;
@@ -63,10 +74,11 @@
     margin-top: -50px;
 }
 .figure{
+    margin-top: -5px;
     margin-left: -60px;
     width: 350px;
 }
 .main{
-    height:400px;
+    height:450px;
 }
 }

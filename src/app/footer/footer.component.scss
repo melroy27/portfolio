@@ -1,25 +1,35 @@
-.foot{
+.foot {
     height: 350px;
-    background-color: #7510F7;
+    background-color: #7510f7;
     text-align: center;
     color: white;
 }
-.social-icons{
+.social-icons {
     color: white;
 }
-i{
+i {
     padding-right: 20px;
 }
-.logo{
+.logo {
     padding-top: 50px;
     padding-bottom: 30px;
 }
-.logoText{
+.logoText {
     font-size: 20px;
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 10px;
+    font-family: "Rowdies", cursive;
 }
-.final{
+.final {
     padding-top: 25px;
+    font-family: "Crimson Text", serif;
+}
+@media only screen and (min-width: 414px) and (max-width: 600px) {
+    .logoText {
+        font-size: 5px;
+    }
+    .foot{
+        height: fit-content;
+    }
 }

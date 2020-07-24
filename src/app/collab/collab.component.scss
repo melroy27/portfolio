@@ -1,17 +1,22 @@
-.head{
-    padding-top:130px;
+.head {
+    padding-top: 130px;
     text-align: center;
-    font-size: 27px;
+    font-size: 30px;
     color: black;
     padding-bottom: 60px;
+    font-family: "Rowdies", cursive;
 }
-.body{
+.body {
     align-items: center;
     text-align: center;
-    padding-bottom: 0px;
+    padding-bottom: 80px;
 }
 @media only screen and (min-width: 414px) and (max-width: 600px) {
-    .head{
-   margin-top: -90px;
-    } 
+    .head {
+        margin-top: -90px;
+    }
+    .body{
+        margin-top: -15px;
+        margin-bottom: -30px;
+    }
 }
