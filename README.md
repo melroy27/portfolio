@@ -1,3 +1,5 @@
+# Description
+ This a funny portfolio for my practice.. the real one will be up soon...
 # Portfolio
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
