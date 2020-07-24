@@ -10,3 +10,8 @@
     text-align: center;
     padding-bottom: 0px;
 }
+@media only screen and (min-width: 414px) and (max-width: 600px) {
+    .head{
+   margin-top: -90px;
+    } 
+}
